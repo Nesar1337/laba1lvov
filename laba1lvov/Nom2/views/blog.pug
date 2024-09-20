@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  main
+    h2 
+      strong Деньги
+    li Дата публикации: 20 сентября 2024
+    p Открыть бизнес
+    img(src="https://trk7.ru/upload/iblock/566/5661022c025d29a2789bf2213760b977.png")
+  
+  aside
+    h3 Последние статьи
+    ul
+      li: a(href='/article-1')
+        .image-container
+          img(src='/pics/2.jpg', alt='Заголовок Статьи 1', class='article-image' width=200 height=200)
+          h2 Вендинг
+      li: a(href='/article-2')
+        .image-container
+          img(src='/pics/3.jpg', alt='Заголовок Статьи 2', class='article-image' width=200 height=200)
+          h2 День перекупа
+      li: a(href='/article-3')
+        .image-container
+          img(src='/pics/4.jpg', alt='Заголовок Статьи 3', class='article-image' width=200 height=200)
+          h2 Автомойка
